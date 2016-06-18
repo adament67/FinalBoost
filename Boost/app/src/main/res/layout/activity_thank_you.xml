@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<include layout="@layout/layout_header"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <LinearLayout
+       android:layout_width="170dp"
+       android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+       android:orientation="vertical">
+
+         <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+             android:layout_height="280dp"
+           android:adjustViewBounds="true"
+           android:scaleType="centerInside"
+           android:layout_gravity="center_horizontal"
+           android:src="@raw/splash_bg_transparent_background">
+         </ImageView>
+
+         <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/color_gray"/>
+
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Thank You for using the service"
+        android:background="@null"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="We are looking forward to servcing you next time!"
+        android:background="@null"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

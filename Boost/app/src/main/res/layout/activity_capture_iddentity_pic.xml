@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <include layout="@layout/layout_header"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text="Take a photo of your picture ID such as drivers license or state ID and send now"
+                android:background="@drawable/bg_textbox"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+              <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="30dp"
+                android:src="@raw/helper_card_icon"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitCenter"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@raw/send_pic_edit_btn"/>
+
+            </RelativeLayout>
+
+
+
+            <Button
+                android:id="@+id/sendPicButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send Now"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/color_white"
+                android:textAllCaps="false"
+
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_button_normal"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

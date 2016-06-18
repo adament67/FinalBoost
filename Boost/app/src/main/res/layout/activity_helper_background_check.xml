@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<include layout="@layout/layout_header"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="To ensure for all parties ,we must perform a background check"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:cursorVisible="false"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Social serurity number"
+            android:padding="15dp"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:background="@drawable/bg_textbox"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="11/6/16"
+            android:padding="15dp"
+            android:inputType="date"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:background="@drawable/bg_textbox"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Address 1"
+            android:padding="15dp"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:background="@drawable/bg_textbox"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Address 2"
+            android:padding="15dp"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:background="@drawable/bg_textbox"/>
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="City"
+            android:padding="10dp"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:background="@drawable/bg_textbox"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="State"
+            android:padding="15dp"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:background="@drawable/bg_textbox"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Postal Code"
+            android:padding="15dp"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:background="@drawable/bg_textbox"/>
+
+
+
+        <Button
+            android:id="@+id/continueBGCheckButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/color_white"
+            android:textAllCaps="false"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:background="@drawable/bg_button_normal"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>

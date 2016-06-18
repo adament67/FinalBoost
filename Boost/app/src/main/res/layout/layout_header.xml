@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/header_color">
+
+
+    <ImageView
+        android:id="@+id/headerBackButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:src="@raw/back_btn"/>
+
+
+    <TextView
+        android:id="@+id/headerHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:visibility="visible"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Verification Code"/>
+
+    <ImageView
+        android:id="@+id/headerAddButton"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@raw/add_button_white"/>
+
+    <TextView
+        android:id="@+id/headerCancelText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:visibility="gone"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Cancel"/>
+
+</RelativeLayout>

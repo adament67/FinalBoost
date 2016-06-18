@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Boost</string>
+    <string name="verification_text">We just sent you the verification \n code to your mobile phone</string>
+
+    <string name="tab_helper">Helper</string>
+    <string name="tab_account">Account</string>
+    <string name="tab_request">Request</string>
+
+    <string name="add_request_html"><![CDATA[<p>Awesome you are all set to start your first help request by tapping the<img src="R.raw.plus_icon_blue">button on the top right corner of the screen</p>]]></string>
+
+    <string name="agree">Agree &amp; Start</string>
+
+    <string name="accept">Accept &amp; Continue</string>
+
+    <string name="helper_disclosure_text">The background check company,ADP screening and Selection Services will prepare the background report for the company.ADP screening and selection services is located at ... and can be reached at ...
+</string>
+
+</resources>

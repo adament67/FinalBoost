@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/currentLocationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Use My Current Location"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:drawableRight="@drawable/address_forward_btn"
+            android:layout_marginRight="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+       <View android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="@color/color_gray"/>
+
+        <TextView
+            android:id="@+id/mobileContactTextView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Use My Mobile Contact"
+            android:drawableRight="@drawable/address_forward_btn"
+            android:layout_marginRight="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_gray"/>
+
+
+        <TextView
+            android:id="@+id/enterAddressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Enter An Address"
+            android:drawableRight="@drawable/address_forward_btn"
+            android:layout_marginRight="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_gray"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

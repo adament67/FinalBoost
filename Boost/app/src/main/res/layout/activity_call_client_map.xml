@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<include layout="@layout/layout_header"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/scheduleNowButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="Schedule Now"
+            android:layout_gravity="left|center_vertical"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/color_white"
+            android:background="@drawable/bg_button_normal" />
+
+
+        <Button
+            android:id="@+id/futureSchedulingButton"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right|center_vertical"
+            android:text="Future Scheduling"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_white"
+            android:background="@drawable/bg_button_normal" />
+
+    </LinearLayout>
+</LinearLayout>

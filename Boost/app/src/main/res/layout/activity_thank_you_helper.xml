@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    android:orientation="vertical">
+    <include layout="@layout/layout_header"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@raw/splash_bg_transparent_background">
+                </ImageView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/color_gray"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Thank you for registering as a boost helper.You will be noticed in just a few days if you have been approved "
+                android:background="@null"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+            <Button
+                android:id="@+id/doneButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/color_white"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textAllCaps="false"
+                android:background="@drawable/bg_button_normal"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
